@@ -31,3 +31,16 @@ public class Class05 {
 public Cbbb2() {
         super(2);
     }
+public void show()
+{
+ System.out.println("num="+get());
+}
+}
+public class hw10_5b
+{
+public static void main(String args[])
+{
+Cbbb bb=new Cbbb();
+bb.show();
+}
+}
